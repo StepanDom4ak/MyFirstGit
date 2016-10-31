@@ -8,9 +8,14 @@ namespace MyGit
 {
     class Fish
     {
-        string Name { set; get; }
-        double Weight { set; get; }
-        double Price { set; get; }
+        public string Name { set; get; }
+        public double Weight { set; get; }
+        public double Price { set; get; }
+
+        public static void MyMethod()
+        {
+            Console.WriteLine("I Have Just Cheking Git");
+        }
 
         public override String ToString()
         {
